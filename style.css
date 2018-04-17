@@ -16,3 +16,16 @@ img {
     text-align: justify;
     hyphens: auto;
 }
+
+.card-body {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.card-date {
+    float: right;
+}
+
+.card {
+    margin-bottom: 0.75rem;
+}
