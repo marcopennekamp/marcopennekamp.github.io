@@ -17,6 +17,10 @@ img {
     hyphens: auto;
 }
 
+.card {
+    margin-bottom: 0.75rem;
+}
+
 .card-body {
     text-align: justify;
     hyphens: auto;
@@ -24,8 +28,4 @@ img {
 
 .card-date {
     float: right;
-}
-
-.card {
-    margin-bottom: 0.75rem;
 }
