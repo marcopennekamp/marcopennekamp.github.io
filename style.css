@@ -57,6 +57,7 @@ p:last-child {
 
 .card {
     margin-bottom: 0.75rem;
+    border-top: 7px solid;
 }
 
 .card:last-child {
@@ -70,4 +71,28 @@ p:last-child {
 
 .card-date {
     float: right;
+}
+
+.card--gray {
+    border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+.card--tu-green {
+    border-top-color: rgba(99, 154, 0, 0.7);
+}
+
+.card--orange-red {
+    border-top-color: rgba(221, 76, 60, 0.75);
+}
+
+.card--purple {
+    border-top-color: rgba(93, 16, 168, 0.6);
+}
+
+.card--blue {
+    border-top-color: rgba(46, 134, 193, 0.75);
+}
+
+.card--teal {
+    border-top-color: rgba(0, 128, 128, 0.75);
 }
