@@ -69,13 +69,34 @@ ul {
     margin-bottom: 0;
 }
 
-.card-body {
-    text-align: justify;
-    hyphens: auto;
+.card-header {
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card-date {
-    float: right;
+    margin-left: auto;
+}
+
+.card-subtitle {
+    width: 100%;
+    font-size: 0.8rem;
+    color: #bcc3ce;
+}
+
+@media (max-width: 700px) {
+    .card-date {
+        order: -1;
+        width: 100%;
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+}
+
+.card-body {
+    text-align: justify;
+    hyphens: auto;
 }
 
 .card--gray {
