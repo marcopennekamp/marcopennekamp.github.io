@@ -18,6 +18,10 @@ p:last-child {
     margin-bottom: 0;
 }
 
+ul {
+  list-style-position: outside;
+}
+
 .profile-picture {
     padding-right: 1rem;
 }
